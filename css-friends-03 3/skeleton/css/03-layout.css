@@ -1,0 +1,38 @@
+/* PHASE 3: Layout */
+.content{
+    display: flex;
+    justify-content: center;
+    min-height: 200px;
+}
+
+.content section  {
+    display: block;
+    min-height: 200px;
+    min-width: 200px;
+    padding: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.content-main {
+    background-color: lightgreen;
+}
+
+.content-sidebar {
+    background-color: blue;
+}
+
+footer {
+    display:flex;
+    justify-content: space-between;
+}
+
+.foot_links ul {
+    display: flex;
+
+}
+
+.foot_links ul li {
+    padding: 2px;
+}
